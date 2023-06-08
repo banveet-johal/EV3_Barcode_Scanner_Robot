@@ -1,0 +1,1 @@
+Designed and Programmed a robot that can scan a bar code (standard code 39) of a single ASCII alphabet character (A, B, …, X, Y, Z) of different sizes using MATLAB to smooth signal input and C language to gather input from light sensor.
