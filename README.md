@@ -1,4 +1,5 @@
 Designed and Programmed a robot that can scan a bar code (standard code 39) of a single ASCII alphabet character (A, B, …, X, Y, Z) of different sizes using MATLAB to smooth signal input and C language to gather input from light sensor.
+
 Software
 
 a. Robot-C
@@ -14,12 +15,12 @@ a. Robot-C
  
 b. MATLAB
 
-a. Moving average algorithm (from scratch not using built-in functions) to filter the 
-noisy light sensor values
-b. Derivative (from scratch not using built-in functions) to detect edge at each black 
-or white region in the bar code.
-c. Findpeaks (a built-in function can be used) to find the index of the start and end 
-(i.e. width) of each region in the bar code.
-d. Once the width and color of each region in the barcode is found, design a simple 
-lookup table to find the corresponding ASCII character.
-e. Display the ASCII character in the command window
+ a. Moving average algorithm (from scratch not using built-in functions) to filter the 
+ noisy light sensor values.
+ b. Derivative (from scratch not using built-in functions) to detect edge at each black 
+ or white region in the bar code.
+ c. Findpeaks (a built-in function) to find the index of the start and end 
+ (i.e. width) of each region in the bar code.
+ d. Once the width and color of each region in the barcode is found, designed a simple 
+ lookup table to find the corresponding ASCII character.
+ e. Display the ASCII character in the command window.
