@@ -31,3 +31,7 @@ b. MATLAB
  lookup table to find the corresponding ASCII character.
  
  e. Display the ASCII character in the command window.
+ 
+ Sample Barcodes:
+ 
+ ![Model](https://github.com/banveet-johal/EV3_Barcode_Scanner_Robot/blob/main/barcodes/barcode_samples_smallest_size.PNG)
